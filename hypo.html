@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="name">
+        <h1>
+          Fun Triangles
+        </h1>
+      </div>
+      <div class="option">
+        <button>
+          <a href="./index.html">Is Triangle?</a>
+        </button>
+        <button>
+          <a href="./quiz.html">3rd Angle?</a>
+        </button>
+        <button id="act">
+          <a href="./hypo.html">Hypotenuse</a>
+        </button>
+        <button>
+          <a href="./area.html">Area Finder</a>
+        </button>
+      </div>
+    </header>
+    <div class="container">
+      <h3>Find Hypotenuse</h3>
+      <label>
+        Base:
+        <input type="number" id="a1" value="a1" />
+      </label>
+      <label>
+        Height:
+        <input type="number" id="a2" value="a2" />
+      </label>
+
+      <button id="enter">Find</button>
+
+      <p id="result">Find the 3rd angle!</p>
+    </div>
+    <script>
+      var a1 = document.getElementById("a1");
+      var a2 = document.getElementById("a2");
+      var enter = document.getElementById("enter");
+      var result = document.getElementById("result");
+
+      enter.addEventListener("click", handleEnter);
+
+      function handleEnter() {
+        let s1 = parseInt(a1.value);
+        let s2 = parseInt(a2.value);
+        let hyp = Math.sqrt(Math.pow(s1, 2) + Math.pow(s2, 2));
+        result.innerHTML = `Hypotenuse:   <u>${hyp.toFixed(2)}</u>`;
+      }
+    </script>
+  </body>
+</html>
