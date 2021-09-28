@@ -7,6 +7,6 @@ Random things related to triangles.
 
 ### Code and Live Demo
 
-[![Edit bold-lake-ljrte](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/bold-lake-ljrte?fontsize=14&hidenavigation=1&theme=dark)
+[![Edit fun-traingles](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/fun-traingles-xx29u?fontsize=14&hidenavigation=1&theme=dark)
 
 or check this link https://xx29u.csb.app/
