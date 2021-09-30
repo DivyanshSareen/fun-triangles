@@ -1,4 +1,5 @@
 # fun-triangles
+
 Random things related to triangles.
 
 ### Preview:
@@ -9,4 +10,4 @@ Random things related to triangles.
 
 [![Edit fun-traingles](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/fun-traingles-xx29u?fontsize=14&hidenavigation=1&theme=dark)
 
-or check this link https://xx29u.csb.app/
+or check this link https://csb-xx29u.netlify.app/
