@@ -1,60 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Parcel Sandbox</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./src/styles.css" />
-  </head>
 
-  <body>
-    <header>
-      <div class="name">
-        <h1>
-          Fun Triangles
-        </h1>
-      </div>
-      <div class="option">
-        <button>
-          <a href="./index.html">Is Triangle?</a>
-        </button>
-        <button id="act">
-          <a href="./quiz.html">3rd Angle?</a>
-        </button>
-        <button>
-          <a href="./hypo.html">Hypotenuse</a>
-        </button>
-        <button>
-          <a href="./area.html">Area Finder</a>
-        </button>
-      </div>
-    </header>
-    <div class="container">
-      <h3>The third angle of triangle?</h3>
-      <label>
-        Angle 1:
-        <input type="number" id="a1" value="a1" />
-      </label>
-      <label>
-        Angle 2:
-        <input type="number" id="a2" value="a2" />
-      </label>
+<head>
+  <title>Parcel Sandbox</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./src/styles.css" />
+</head>
 
-      <button id="enter">Find</button>
-
-      <p id="result">Find the 3rd angle!</p>
+<body>
+  <header>
+    <div class="name">
+      <h1>
+        Fun Triangles
+      </h1>
     </div>
-    <script>
-      var a1 = document.getElementById("a1");
-      var a2 = document.getElementById("a2");
-      var enter = document.getElementById("enter");
-      var result = document.getElementById("result");
+    <div class="option">
+      <button>
+        <a href="./index.html">Is Triangle?</a>
+      </button>
+      <button>
+        <a href="./form.html">Quiz</a>
+      </button>
+      <button id="act">
+        <a href="./quiz.html">3rd Angle?</a>
+      </button>
+      <button>
+        <a href="./hypo.html">Hypotenuse</a>
+      </button>
+      <button>
+        <a href="./area.html">Area Finder</a>
+      </button>
+    </div>
+  </header>
+  <div class="container">
+    <h3>The third angle of triangle?</h3>
+    <label>
+      Angle 1:
+      <input type="number" id="a1" value="a1" />
+    </label>
+    <label>
+      Angle 2:
+      <input type="number" id="a2" value="a2" />
+    </label>
 
-      enter.addEventListener("click", handleEnter);
+    <button id="enter">Find</button>
 
-      function handleEnter() {
-        let ans = 180 - parseInt(a1.value) - parseInt(a2.value);
-        result.innerHTML = `Angle 3:   <u>${ans}</u>`;
-      }
-    </script>
-  </body>
+    <p id="result">Find the 3rd angle!</p>
+  </div>
+  <script>
+    var a1 = document.getElementById("a1");
+    var a2 = document.getElementById("a2");
+    var enter = document.getElementById("enter");
+    var result = document.getElementById("result");
+
+    enter.addEventListener("click", handleEnter);
+
+    function handleEnter() {
+      let ans = 180 - parseInt(a1.value) - parseInt(a2.value);
+      result.innerHTML = `Angle 3:   <u>${ans}</u>`;
+    }
+  </script>
+</body>
+
 </html>

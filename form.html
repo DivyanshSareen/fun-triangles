@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+</head>
+
+<body>
+    <header>
+        <div class="name">
+            <h1>
+                Fun Triangles
+            </h1>
+        </div>
+        <div class="option">
+            <button>
+                <a href="./index.html">Is Triangle?</a>
+            </button>
+            <button id="act">
+                <a href="./form.html">Quiz</a>
+            </button>
+            <button>
+                <a href="./quiz.html">3rd Angle?</a>
+            </button>
+            <button>
+                <a href="./hypo.html">Hypotenuse</a>
+            </button>
+            <button>
+                <a href="./area.html">Area Finder</a>
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>Answer the following questions:</h3>
+
+        <form action="" id="ans">
+            <p>Q Which of the following is not a criterion for congruence of triangles?</p>
+            <input type="radio" id="q1c1" name="q1" value="1" />
+            <label for="q1c1">Side, Side, Side (SSS)</label>
+            <input type="radio" id="q1c2" name="q1" value="2" />
+            <label for="q1c2">Angle Side Angle (ASA)</label>
+            <input type="radio" id="q1c1" name="q1" value="3" />
+            <label for="q1c2">Side, Side , Angle (SSA)</label>
+            <br>
+            <p>Q When corresponding sides of two polygons are proportional, they are similar.</p>
+            <input type="radio" id="q2c1" name="q2" value="1" />
+            <label for="q2c1">True</label>
+            <input type="radio" id="q2c2" name="q2" value="2" />
+            <label for="q2c2">False</label>
+            <br>
+            <p>Q Two Line segments are congruent if they have the same length.</p>
+            <input type="radio" id="q3c1" name="q3" value="1" />
+            <label for="q3c1">True</label>
+            <input type="radio" id="q3c2" name="q3" value="2" />
+            <label for="q3c2">False</label>
+            <br>
+            <p>Q A triangle has sizes measuring 11 cm, 16 cm, and 16 cm. A similar triangle has sides measuring x cm, 24
+                cm, and 24 cm.
+                What is x?</p>
+            <input type="radio" id="q4c1" name="q4" value="1" />
+            <label for="q4c1">X = 19 cm</label>
+            <input type="radio" id="q4c2" name="q4" value="2" />
+            <label for="q4c2">X = 16.5 cm</label>
+            <input type="radio" id="q4c1" name="q4" value="3" />
+            <label for="q4c2">X = 24cm</label>
+            <br>
+            <p>Q Among two congruent angles one has measure 70, then the measure of other angle is_____</p>
+            <input type="text" placeholder="your answer" name="q5">
+            <br>
+            <p>Q If ΔABC, is right angled at B, then:</p>
+            <input type="radio" id="q6c1" name="q6" value="1" />
+            <label for="q6c1">AC > AB</label>
+            <input type="radio" id="q6c2" name="q6" value="2" />
+            <label for="q6c2">AB = AC</label>
+            <input type="radio" id="q6c1" name="q6" value="3" />
+            <label for="q6c2">AC < AB</label>
+                    <br>
+        </form>
+        <button id="enter">Enter</button>
+
+        <p id="result">Result will appear here</p>
+    </div>
+    <script src="src/form.js"></script>
+</body>
+
+</html>

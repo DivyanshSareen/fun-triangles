@@ -23,6 +23,16 @@ input[type="number"] {
   color: #d57e7e;
   height: 2em;
 }
+input[type="text"] {
+  background: #a2cdcd;
+  border: dashed #d57e7e;
+  border-radius: 4px;
+  color: #d57e7e;
+  height: 2em;
+}
+input[type="radio"] {
+  background-color: #a2cdcd;
+}
 input:focus {
   outline: none;
   border-style: dotted;
