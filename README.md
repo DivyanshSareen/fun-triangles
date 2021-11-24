@@ -4,7 +4,7 @@ Random things related to triangles.
 
 ### Preview:
 
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/59335572/143186471-90f4e541-7e00-498b-b26a-ba951f33ae20.png">
+<img width="946" alt="image" src="https://user-images.githubusercontent.com/59335572/143186536-dffd50fa-e3d3-4718-af1e-75564d5a6331.png">
 
 ### Code and Live Demo
 
