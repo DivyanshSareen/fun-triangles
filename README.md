@@ -8,6 +8,6 @@ Random things related to triangles.
 
 ### Code and Live Demo
 
-[![Edit fun-traingles](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/fun-traingles-xx29u?fontsize=14&hidenavigation=1&theme=dark)
+[![Edit flamboyant-darkness-m4368](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/flamboyant-darkness-m4368?fontsize=14&hidenavigation=1&theme=dark)
 
-or check this link https://csb-xx29u.netlify.app/
+or check this link https://csb-m4368.netlify.app/form.html
